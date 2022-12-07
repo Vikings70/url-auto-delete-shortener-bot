@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/greymatter_bots')
+                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://youtube.com/@movievilla99')
             ],
             [
-                InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url=f"https://youtube.com/c/GreyMattersBot"),
+                InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://youtube.com/@movievilla99'),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
