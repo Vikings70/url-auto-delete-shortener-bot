@@ -410,13 +410,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton(' 彡  𝔸𝔻𝔻 𝕄𝔼 𝕋𝕆 𝕐𝕆𝕌ℝ 𝔾ℝ𝕆𝕌ℙ  彡 ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://t.me/latest_hindi_dubbed_movies'),
-            InlineKeyboardButton('🤖 UᎮDΛTΞS 🤖', url='https://t.me/greymatter_bots')
+            InlineKeyboardButton(' ★  𝕄𝔸𝕀ℕ  ℂℍ𝔸ℕℕ𝔼𝕃  ★ ', url='https://t.me/AlanWalker9_request')
         ], [
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton(' 🔍 𝕊𝔼𝔸ℝℂℍ 🔍 ', url='https://youtube.com/@movievilla99'),
+            InlineKeyboardButton(' ♻️ ℍ𝕖𝕝𝕡 ♻️ ', url='https://www.instagram.com/movievilla99')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
