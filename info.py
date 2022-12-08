@@ -76,9 +76,9 @@ URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 600))
-SELF_DELETE = environ.get('SELF_DELETE', True)
-if SELF_DELETE == "True":
-    SELF_DELETE = True
+SELF_DELETE = environ.get('SELF_DELETE', False)
+if SELF_DELETE == "False":
+    SELF_DELETE = False
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
@@ -86,6 +86,6 @@ DOWNLOAD_TEXT_URL = "https://youtu.be/sd3fDrBBgt4"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Subscribe"
-CAPTION_BUTTON_URL = "https://t.me/latest_hindi_dubbed_movies"
+CAPTION_BUTTON_URL = "https://youtube.com/@movievilla99"
 
    # Auto Delete For Bot Sending Files #
